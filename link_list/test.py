@@ -1,6 +1,4 @@
-from single_cycle_link_list import  SingleCycleLinkList
-
-
+from single_cycle_link_list import SingleCycleLinkList
 
 l1 = SingleCycleLinkList()
 print(l1.is_empty())
