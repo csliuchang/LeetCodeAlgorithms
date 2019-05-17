@@ -1,5 +1,5 @@
-##因为在写最小深度用层次遍历时候写过，代码如下
-```
+ 因为在写最小深度用层次遍历时候写过，代码如下
+```python
         res = []
         if not root :
             return res
@@ -14,8 +14,8 @@
                 res.append(r.val)
         return res
 ```
-##但是，在leetcode上运行时候发现它的输出有个嵌套队列，于是代码加个s队列
-```
+但是，在leetcode上运行时候发现它的输出有个嵌套队列，于是代码加个s队列
+```python
         res = []
         if not root:
             return res
