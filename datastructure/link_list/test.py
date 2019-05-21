@@ -1,6 +1,6 @@
-from single_cycle_link_list import SingleCycleLinkList
+from double_link_list import DoubleLinkList
 
-l1 = SingleCycleLinkList()
+l1 = DoubleLinkList()
 print(l1.is_empty())
 print(l1.length())
 
@@ -24,3 +24,5 @@ l1.remove(9)
 l1.travel()
 l1.remove(200)
 l1.travel()
+
+
