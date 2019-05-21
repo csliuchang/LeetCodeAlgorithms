@@ -7,7 +7,7 @@ class Node(object):
 
 
 class DoubleLinkList(object):
-    """双链表"""
+    """double link list"""
     def __init__(self, node=None):
         self._head = node 
 
